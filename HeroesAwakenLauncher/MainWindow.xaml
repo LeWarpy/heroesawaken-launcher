@@ -1,0 +1,77 @@
+﻿<Window x:Class="GameLauncherTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLauncherTest"
+        mc:Ignorable="d"
+        Title="HeroesAwaken Launcher" Height="485.538" Width="606.936" Foreground="#FF2E3841" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF2E3841" Offset="0"/>
+            <GradientStop Color="#FF3E5366" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,0,0,-1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="283*"/>
+            <ColumnDefinition Width="318*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="384*"/>
+            <RowDefinition Height="71*"/>
+        </Grid.RowDefinitions>
+
+        <WebBrowser Margin="10,38,10,56" Source="https://heroesawaken.com/news" Grid.ColumnSpan="2"/>
+        <Button x:Name="launchButton" Content="Not registered?" HorizontalAlignment="Right" Margin="0,0,293,9" VerticalAlignment="Bottom" Width="125" Height="35" ToolTip="Register now!" Click="launchButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" Grid.Row="1" Grid.ColumnSpan="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FF2D9123" Offset="0.974"/>
+                    <GradientStop Color="#FF55D64E"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="websiteButton" Content="Visit Website" Margin="10,0,0,9" VerticalAlignment="Bottom" Height="35" ToolTip="Launch the game!" Click="websiteButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" Width="120" Grid.Row="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FF2E3841"/>
+                    <GradientStop Color="#FF2E3841"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="mainLabel_Copy" Content="v1a&#xA;" FontSize="10.667" Height="23" VerticalAlignment="Top" Margin="279,10,0,0" Foreground="#FF8EABC5" HorizontalAlignment="Left" Width="27" Grid.Column="1"/>
+        <Button x:Name="launchButton_Copy" Content="Login" HorizontalAlignment="Right" Margin="0,0,163,9" VerticalAlignment="Bottom" Width="125" Height="35" ToolTip="Launch the game!" Click="launchButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" Grid.Row="1" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FF2D9123" Offset="0.974"/>
+                    <GradientStop Color="#FF55D64E"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image x:Name="logo_new_small_png" Margin="3,0,111,319" Source="logo_new_small.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-6.482"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle Fill="#FF252F38" HorizontalAlignment="Left" Height="64" Margin="10,334,0,0" Stroke="Black" VerticalAlignment="Top" Width="526" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Image x:Name="playNow_bg_png" Margin="201,335,10,19" Source="playNow_bg.png" Stretch="Fill" Grid.RowSpan="2" Grid.Column="1"/>
+        <ProgressBar HorizontalAlignment="Left" Height="28" Margin="20,360,0,0" VerticalAlignment="Top" Width="456" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" IsIndeterminate="True" Background="#FFABABAB" Grid.RowSpan="2">
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <Label x:Name="label" Content="Downloading content..." HorizontalAlignment="Left" Margin="14,336,0,0" VerticalAlignment="Top" Width="143" Height="24" Background="#00000000" Foreground="White" FontFamily="Trebuchet MS" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="168,341,0,2" TextWrapping="Wrap" Text="???%" Grid.Column="1" Foreground="White" FontFamily="Trebuchet MS" Width="23"/>
+
+    </Grid>
+</Window>

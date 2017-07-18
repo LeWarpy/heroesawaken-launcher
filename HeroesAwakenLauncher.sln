@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesAwakenLauncherTest", "HeroesAwakenLauncher\HeroesAwakenLauncherTest.csproj", "{39D18FA5-1EF1-49D8-BF53-A369655B568D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesAwakenLauncherLibrary", "HeroesAwakenLauncherLibrary\HeroesAwakenLauncherLibrary.csproj", "{16F8B6CA-C63A-4472-872C-B3420997458A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D18FA5-1EF1-49D8-BF53-A369655B568D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D18FA5-1EF1-49D8-BF53-A369655B568D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D18FA5-1EF1-49D8-BF53-A369655B568D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D18FA5-1EF1-49D8-BF53-A369655B568D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F8B6CA-C63A-4472-872C-B3420997458A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F8B6CA-C63A-4472-872C-B3420997458A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F8B6CA-C63A-4472-872C-B3420997458A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F8B6CA-C63A-4472-872C-B3420997458A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

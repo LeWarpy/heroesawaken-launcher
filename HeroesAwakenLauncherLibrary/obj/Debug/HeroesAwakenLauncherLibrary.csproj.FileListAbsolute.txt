@@ -1,0 +1,5 @@
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherLibrary\bin\Debug\LitJson.dll
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherLibrary\bin\Debug\HeroesAwakenLauncherLibrary.dll
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherLibrary\bin\Debug\HeroesAwakenLauncherLibrary.pdb
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherLibrary\obj\Debug\HeroesAwakenLauncherLibrary.dll
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherLibrary\obj\Debug\HeroesAwakenLauncherLibrary.pdb

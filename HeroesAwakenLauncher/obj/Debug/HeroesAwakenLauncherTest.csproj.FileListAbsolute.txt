@@ -1,0 +1,16 @@
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\HeroesAwakenLauncherTest.csprojResolveAssemblyReference.cache
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\MainWindow.g.cs
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\App.g.cs
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\MainWindow.baml
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\HeroesAwakenLauncherTest.csproj.GenerateResource.Cache
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\bin\Debug\HeroesAwakenLauncherLibrary.dll
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\bin\Debug\HeroesAwakenLauncherLibrary.pdb
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\bin\Debug\HeroesAwakenLauncher.exe.config
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\bin\Debug\HeroesAwakenLauncher.exe
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\bin\Debug\HeroesAwakenLauncher.pdb
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\HeroesAwakenLauncher_MarkupCompile.cache
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\HeroesAwakenLauncher_MarkupCompile.lref
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\HeroesAwakenLauncher.g.resources
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\HeroesAwakenLauncher.Properties.Resources.resources
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\HeroesAwakenLauncher.exe
+C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherTest\obj\Debug\HeroesAwakenLauncher.pdb
