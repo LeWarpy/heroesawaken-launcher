@@ -73,7 +73,7 @@
         </ProgressBar>
         <Label x:Name="label" Content="Installation completed" HorizontalAlignment="Left" Margin="14,143,0,0" VerticalAlignment="Top" Width="143" Height="24" Background="#00000000" Foreground="White" FontFamily="Trebuchet MS" FontWeight="Bold" Grid.Row="1"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="164,148,0,2" TextWrapping="Wrap" Text="100%" Grid.Column="1" Foreground="White" FontFamily="Trebuchet MS" Width="27" Grid.Row="1"/>
-        <Button x:Name="launchButton" Content="&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="206,141,0,0" VerticalAlignment="Top" Width="102" Height="99" Grid.RowSpan="2" Click="launchButton_Click" BorderThickness="0" Grid.Row="1">
+        <Button x:Name="launchButton" Content="&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="206,141,0,0" VerticalAlignment="Top" Width="110" Height="110" Grid.RowSpan="2" Click="launchButton_Click" BorderThickness="0" Grid.Row="1">
             <Button.Background>
                 <ImageBrush ImageSource="playNow_bg.png"/>
             </Button.Background>
