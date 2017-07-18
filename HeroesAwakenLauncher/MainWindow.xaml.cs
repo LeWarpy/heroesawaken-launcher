@@ -18,11 +18,24 @@ namespace GameLauncherTest
         {
             Launcher.LaunchWebsite("https://heroesawaken.com/");
         }
+        private void registerButton_Click(object sender, RoutedEventArgs e)
+        {
+            Launcher.LaunchWebsite("https://heroesawaken.com/register");
+        }
+        private void loginButton_Click(object sender, RoutedEventArgs e)
+        {
+            Launcher.LaunchWebsite("https://heroesawaken.com/login");
+        }
 
         private void launchButton_Click(object sender, RoutedEventArgs e)
         {
             Launcher.PlayGame();
             Environment.Exit(0);
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

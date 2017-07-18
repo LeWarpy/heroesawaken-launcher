@@ -3,3 +3,9 @@ C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherLibrary\
 C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherLibrary\bin\Debug\HeroesAwakenLauncherLibrary.pdb
 C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherLibrary\obj\Debug\HeroesAwakenLauncherLibrary.dll
 C:\Users\ANTHONY-PC\Desktop\Logiciels\heroesawaken-launcher\GameLauncherLibrary\obj\Debug\HeroesAwakenLauncherLibrary.pdb
+C:\Users\ANTHONY-PC\Documents\GitHub\heroesawaken-launcher\HeroesAwakenLauncherLibrary\bin\Debug\HeroesAwakenLauncherLibrary.dll
+C:\Users\ANTHONY-PC\Documents\GitHub\heroesawaken-launcher\HeroesAwakenLauncherLibrary\bin\Debug\HeroesAwakenLauncherLibrary.pdb
+C:\Users\ANTHONY-PC\Documents\GitHub\heroesawaken-launcher\HeroesAwakenLauncherLibrary\bin\Debug\LitJson.dll
+C:\Users\ANTHONY-PC\Documents\GitHub\heroesawaken-launcher\HeroesAwakenLauncherLibrary\obj\Debug\HeroesAwakenLauncherLibrary.csprojResolveAssemblyReference.cache
+C:\Users\ANTHONY-PC\Documents\GitHub\heroesawaken-launcher\HeroesAwakenLauncherLibrary\obj\Debug\HeroesAwakenLauncherLibrary.dll
+C:\Users\ANTHONY-PC\Documents\GitHub\heroesawaken-launcher\HeroesAwakenLauncherLibrary\obj\Debug\HeroesAwakenLauncherLibrary.pdb

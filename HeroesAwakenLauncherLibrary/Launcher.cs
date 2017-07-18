@@ -12,7 +12,7 @@ namespace GameLauncherLibrary
     {
         public static void PlayGame()
         {
-            Process.Start(Directory.GetCurrentDirectory() + "/_START_ME.bat");
+            Process.Start(Directory.GetCurrentDirectory() + "/Start.exe");
         }
 
         public static void LaunchWebsite(string url)
