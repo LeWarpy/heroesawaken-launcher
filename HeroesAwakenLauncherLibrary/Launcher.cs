@@ -15,6 +15,11 @@ namespace GameLauncherLibrary
             Process.Start(Directory.GetCurrentDirectory() + "/Start.exe");
         }
 
+        public static void MapChange()
+        {
+            Process.Start(Directory.GetCurrentDirectory() + "/HeroesAwaken_MAP_Changer.exe");
+        }
+
         public static void LaunchWebsite(string url)
         {
             Process.Start(url);

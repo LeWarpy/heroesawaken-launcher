@@ -37,5 +37,23 @@ namespace GameLauncherTest
         {
 
         }
+
+        private void ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
+        private void MapChangeButton_Click(object sender, RoutedEventArgs e)
+        {
+            Launcher.MapChange();
+        }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void DiscordButton_Click(object sender, RoutedEventArgs e)
+        {
+            Launcher.LaunchWebsite("https://discord.gg/7DSFmvv");
+        }
     }
 }

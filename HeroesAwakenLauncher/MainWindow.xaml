@@ -14,16 +14,18 @@
     </Window.Background>
     <Grid Margin="0,0,0,-1">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="283*"/>
-            <ColumnDefinition Width="318*"/>
+            <ColumnDefinition Width="275*"/>
+            <ColumnDefinition Width="326*"/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="384*"/>
-            <RowDefinition Height="71*"/>
+            <RowDefinition Height="193*"/>
+            <RowDefinition Height="194*"/>
+            <RowDefinition Height="72*"/>
         </Grid.RowDefinitions>
 
-        <WebBrowser Margin="10,38,10,56" Source="https://heroesawaken.com/news" Grid.ColumnSpan="2"/>
-        <Button x:Name="registerButton" Content="Not registered?" HorizontalAlignment="Right" Margin="0,0,293,9" VerticalAlignment="Bottom" Width="125" Height="35" ToolTip="Register now!" Click="registerButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" Grid.Row="1" Grid.ColumnSpan="2">
+        <WebBrowser Margin="10,52,10,56" Source="https://heroesawaken.com/news" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Button x:Name="registerButton" Content="Not registered?" HorizontalAlignment="Right" Margin="0,0,293,9" VerticalAlignment="Bottom" Width="125" Height="35" ToolTip="Register now!" Click="registerButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" Grid.Row="2" Grid.ColumnSpan="3">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FF2D9123" Offset="0.974"/>
@@ -31,7 +33,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="websiteButton" Content="Visit Website" Margin="10,0,0,9" VerticalAlignment="Bottom" Height="35" ToolTip="Launch the game!" Click="websiteButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" Width="120" Grid.Row="1">
+        <Button x:Name="websiteButton" Content="Visit Website" Margin="10,0,0,9" VerticalAlignment="Bottom" Height="35" ToolTip="Launch the game!" Click="websiteButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" Width="120" Grid.Row="2">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FF2E3841"/>
@@ -39,8 +41,8 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Label x:Name="mainLabel_Copy" Content="v1a&#xA;" FontSize="10.667" Height="23" VerticalAlignment="Top" Margin="279,10,0,0" Foreground="#FF8EABC5" HorizontalAlignment="Left" Width="27" Grid.Column="1"/>
-        <Button x:Name="loginButton_Copy" Content="Login" HorizontalAlignment="Right" Margin="0,0,163,9" VerticalAlignment="Bottom" Width="125" Height="35" ToolTip="Launch the game!" Click="loginButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" Grid.Row="1" Grid.Column="1">
+        <Label x:Name="mainLabel_Copy" Content="v1.0.1a&#xA;" FontSize="10.667" Height="23" VerticalAlignment="Top" Margin="268,16,0,0" Foreground="#FF8EABC5" HorizontalAlignment="Left" Width="50" Grid.Column="1"/>
+        <Button x:Name="loginButton_Copy" Content="Login" HorizontalAlignment="Right" Margin="0,0,163,9" VerticalAlignment="Bottom" Width="125" Height="35" ToolTip="Launch the game!" Click="loginButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" Grid.Row="2" Grid.Column="1">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FF2D9123" Offset="0.974"/>
@@ -48,18 +50,18 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Image x:Name="logo_new_small_png" Margin="3,0,111,319" Source="logo_new_small.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="logo_new_small_png" Margin="9,2,140,146" Source="logo_new_small.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-6.482"/>
-                    <TranslateTransform/>
+                    <SkewTransform AngleX="0.2"/>
+                    <RotateTransform Angle="-6.852"/>
+                    <TranslateTransform X="0.003"/>
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Rectangle Fill="#FF252F38" HorizontalAlignment="Left" Height="64" Margin="10,334,0,0" Stroke="Black" VerticalAlignment="Top" Width="526" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-        <ProgressBar HorizontalAlignment="Left" Height="28" Margin="20,360,0,0" VerticalAlignment="Top" Width="456" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" IsIndeterminate="True" Background="#FFABABAB" Grid.RowSpan="2">
+        <Rectangle Fill="#FF252F38" HorizontalAlignment="Left" Height="64" Margin="10,141,0,0" Stroke="Black" VerticalAlignment="Top" Width="526" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Row="1"/>
+        <ProgressBar HorizontalAlignment="Left" Height="28" Margin="20,167,0,0" VerticalAlignment="Top" Width="456" Grid.ColumnSpan="3" RenderTransformOrigin="0.5,0.5" IsIndeterminate="False" Background="#FFABABAB" Grid.RowSpan="2" ValueChanged="ProgressBar_ValueChanged" Value="100" Grid.Row="1">
             <ProgressBar.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleY="-1"/>
@@ -69,11 +71,24 @@
                 </TransformGroup>
             </ProgressBar.RenderTransform>
         </ProgressBar>
-        <Label x:Name="label" Content="Downloading content..." HorizontalAlignment="Left" Margin="14,336,0,0" VerticalAlignment="Top" Width="143" Height="24" Background="#00000000" Foreground="White" FontFamily="Trebuchet MS" FontWeight="Bold"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="168,341,0,2" TextWrapping="Wrap" Text="???%" Grid.Column="1" Foreground="White" FontFamily="Trebuchet MS" Width="23"/>
-        <Button x:Name="launchButton" Content="&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="206,334,0,0" VerticalAlignment="Top" Width="102" Height="99" Grid.RowSpan="2" Click="launchButton_Click" BorderThickness="0">
+        <Label x:Name="label" Content="Installation completed" HorizontalAlignment="Left" Margin="14,143,0,0" VerticalAlignment="Top" Width="143" Height="24" Background="#00000000" Foreground="White" FontFamily="Trebuchet MS" FontWeight="Bold" Grid.Row="1"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="164,148,0,2" TextWrapping="Wrap" Text="100%" Grid.Column="1" Foreground="White" FontFamily="Trebuchet MS" Width="27" Grid.Row="1"/>
+        <Button x:Name="launchButton" Content="&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="206,141,0,0" VerticalAlignment="Top" Width="102" Height="99" Grid.RowSpan="2" Click="launchButton_Click" BorderThickness="0" Grid.Row="1">
             <Button.Background>
                 <ImageBrush ImageSource="playNow_bg.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="MapChangerButton" Content="Change Map" HorizontalAlignment="Right" Margin="0,0,66,154" VerticalAlignment="Bottom" Width="99" Height="23" ToolTip="Need to change map?" Click="MapChangeButton_Click" BorderBrush="{x:Null}" BorderThickness="0" Foreground="White" FontWeight="Bold" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF7A7A7A" Offset="1"/>
+                    <GradientStop Color="#FF030303"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Discord" Content="" HorizontalAlignment="Left" Margin="183,3,0,0" VerticalAlignment="Top" Width="48" Height="45" Click="DiscordButton_Click" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="Discord-Logo-White.png"/>
             </Button.Background>
         </Button>
 
