@@ -1,2 +1,2 @@
 # HeroesAwaken Launcher #
-Made in C | Using: LitJson
+Made in C# | Using: LitJson
